@@ -1,47 +1,47 @@
 const questions = [
     {
-        question: 'When was John the Baptist baptizing people?',
+        question: 'How to write an IF statement in JavaScript?',
         answers: [
-            { text: 'Jordan River', correct: true },
-            { text: 'Euphrate River', correct: false },
-            { text: 'Dead Sea', correct: false },
-            { text: 'Sea of Galilee', correct: false }
+            { text: 'if i = 5 then', correct: false },
+            { text: 'if(i == 5)', correct: true },
+            { text: 'if i == then', correct: false },
+            { text: 'if i = 5', correct: false }
         ]
     },
     {
-        question: 'When a great storm threatened their ship, what were the disciples doing?',
+        question: 'How to write an IF statement for executing some code if "i" is NOT equal to 5?',
         answers: [
-            { text: 'Eating', correct: false },
-            { text: 'Preaching', correct: false },
-            { text: 'Sleeping', correct: true },
-            { text: 'Praying', correct: false }
+            { text: 'if(i <> 5)', correct: false },
+            { text: 'if i <> 5', correct: false },
+            { text: 'if(i != 5)', correct: true },
+            { text: 'if i = !5 then', correct: false }
         ]
     },
     {
-        question: 'How does this scripture end? "I have fought a good fight, I have finished my course..."',
+        question: 'How does a FOR loop start?',
         answers: [
-            { text: 'I have overcome the world', correct: false },
-            { text: 'Let freedom ring', correct: false },
-            { text: 'Tomorrow belongs to me', correct: false },
-            { text: 'I have kept the faith', correct: true }
+            { text: 'for(i = 0; i<= 5)', correct: false },
+            { text: 'for(i <= 5; i++)', correct: false },
+            { text: 'for(i = 0; i <= 5; i++)', correct: true },
+            { text: 'for i = 1 to 5', correct: false }
         ]
     },
     {
-        question: 'In 1 Samuel 8:5, the Israelites ask Samuel to appoint ________.',
+        question: 'What is the correct way to write a JavaScript array?',
         answers: [
-            { text: 'A bishop', correct: false },
-            { text: 'A king', correct: true },
-            { text: 'A senator', correct: false },
-            { text: 'A knight', correct: false }
+            { text: 'var colors = "red", "green", "blue"', correct: false },
+            { text: 'var color = (1:"red", 2:"green", 3:"blue")', correct: false },
+            { text: 'var colors = ["red", "green", "blue"]', correct: true },
+            { text: 'var color = 1 = ("red"), ("green"), ("blue")', correct: false }
         ]
     },
     {
-        question: 'Who stopped Abraham from slaying his son?',
+        question: 'How do you find the number with the highest value of x and y?',
         answers: [
-            { text: 'No one', correct: false },
-            { text: 'Angel of the Lord', correct: true },
-            { text: 'Satan', correct: false },
-            { text: 'He stopped himself', correct: false }
+            { text: 'Math.max = (x, y)', correct: true },
+            { text: 'Math.ceil(x, y)', correct: false },
+            { text: 'ceil(x, y)', correct: false },
+            { text: 'top(x, y)', correct: false }
         ]
     }
 ];
